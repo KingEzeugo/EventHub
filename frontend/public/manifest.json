@@ -1,0 +1,21 @@
+{
+    "short_name": "EventHub",
+    "name": "EventHub - Community Event Platform",
+    "icons": [
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "favicon.ico",
+        "type": "image/x-icon",
+        "sizes": "64x64"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#1e1e2f",
+    "background_color": "#1e1e2f"
+  }
+  
