@@ -65,48 +65,16 @@ Open another terminal and navigate to the frontend folder.
 - Run npm start.
 - Open a browser and go to http://localhost:3000.
 
-Folder Structure
-
-EventHub/
-├── frontend/
-│   ├── public/
-│   │   ├── index.html
-│   │   ├── favicon.ico
-│   │   ├── manifest.json
-│   │   └── logo192.png
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Header.js
-│   │   │   ├── Hero.js
-│   │   │   ├── Events.js
-│   │   │   ├── EventCard.js
-│   │   │   ├── Map.js
-│   │   │   ├── About.js
-│   │   │   └── Footer.js
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   ├── styles.css
-│   └── package.json
-├── backend/
-│   ├── server.js
-│   ├── routes/
-│   │   └── events.js
-│   ├── models/
-│   │   └── Event.js
-│   ├── .env
-│   └── package.json
-└── README.md
 
 
 
 Built With
 Frontend: React.js, Axios, Google Maps API
 Backend: Node.js, Express.js, MongoDB
-Styling: CSS (Dark Mode Inspired by ChatGPT)
+Styling: CSS 
 Package Managers: npm
 
 
-This project is licensed under the MIT License.
 
 For inquiries or feedback, feel free to contact the developer:
 
