@@ -19,15 +19,19 @@ const Events = () => {
     }, []);
 
     return (
-        <section id="events" className="events-section">
+        <section id="events" className="events-section py-5">
             <div className="container">
-                <h2 className="section-title">Upcoming Events</h2>
-                <div className="event-cards">
-                    {events.map((event, index) => (
-                        <EventCard key={index} event={event} />
-                    ))}
-                </div>
+            <h2 className="section-title text-center mb-5">Upcoming Events</h2>
+            <div className="row g-4">
+                {events.map((event, index) => (
+                    <div className="col-md-4" key={index}>
+                        <EventCard event={event} />
+                    </div>
+                ))}
+            </div>
+            <div className="mt-5">
                 <Map events={events} />
+            </div>
             </div>
         </section>
     );
