@@ -48,6 +48,7 @@ Navigate to the frontend folder:
     - "cd ../frontend"
 Install the frontend dependencies:
     - "npm install"
+    - "npm install bootstrap"
 Start the React application:
     - "npm start"
 The frontend will run at http://localhost:3000.
