@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Events from './components/Events';
 import About from './components/About';
 import Footer from './components/Footer';
+import AddEventForm from './components/AddEventForm';
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <main>
                 <Hero />
                 <Events />
+                <AddEventForm />
                 <About />
             </main>
             <Footer />

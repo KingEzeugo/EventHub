@@ -37,7 +37,7 @@ router.post('/', async (req, res) => {
             city: address.city,
             state: address.state,
             zip: address.zip,
-            country: address.country,
+            country: 'United States', // Default to U.S. only
         },
     });
 
